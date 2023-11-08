@@ -1,0 +1,23 @@
+#include<stdio.h>
+flost average(int x,int y);
+{
+    int s= sum(x,y);
+    float av = (float)s/2;
+    return av;
+}
+sum(int x,int y)
+{
+    return x+y;
+}
+void result()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    float avg=average(a,b);
+    printf("The average is: %.2f/n",avg);
+}
+int main()
+{
+    result();
+    return 0;
+}
