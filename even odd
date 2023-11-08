@@ -1,0 +1,12 @@
+#include<stdio.h>
+int isEven(int num);
+int min(){
+int number=7;
+if(isEven(number)){
+    printf("%d 1",number);
+}
+else{
+    printf("%d 0",number);
+}
+return 0;
+}
